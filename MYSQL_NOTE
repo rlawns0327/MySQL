@@ -1,0 +1,64 @@
+mysql서버 접속
+비트나미 mysql-> bin폴더(c:\Bitnami\wampstack-7.3.6-2\mysql\bin
+
+mysql -uroot -p
+
+
+데이터베이스 만들기
+CREATE DATABASE 'DB name';
+
+데이터베이스 삭제하기
+DROP DATABASE 'DB name';
+
+데이터베이스 목록 출력하기
+SHOW DATABASES;
+
+내가 만든 데이터베이스에 접속하기
+USE 'DB name';
+이제 서버에서 내리는 명령어는 선택한 데이터베이스에 적용된다.
+
+
+검색해서 서버를 조작하는 명령어를 찾으셈
+
+SQL(Structured Query Language) 
+Structured: 구조화된 / 정리정돈된 데이터베이스를
+Query: CSUD를 요청할 수 있게
+Language: 데이터베이스 서버와 유저가 소통할 수 있는 언어로 구현한 프로그램.
+
+주요특징
+1. 쉽다.
+2. 중요하다. - '관계형 데이터베이스'라는 카테고리에 속하는 수많은 DB서버들의 표준화된 언어.
+
+용어정리
+table(표) 는 row(행) 과 column(열)로 이루어져 있다.
+
+DB - Create 
+     Read
+     Update
+     Delete
+
+
+SQL - INSERT
+
+
+
+		INSERT INTO topic(title, description, created, author, profile) VALUES(‘mySQL’, “MySQL is…’,NOW(),’going’, ‘developer’); 
+		
+		NOW() : 현재 시간을 반환하는 함수
+
+		
+
+		INSERT INTO topic(title, description, created, author, profile) VALUES(‘ORACLE’, “ORACLE is…’,NOW(),’going’, ‘developer’); 
+
+
+
+
+      SELECT
+
+		SELECT * FROM topic;
+
+      UPDATE..
+      DELETE...
+
+검색으로 확인!
+
